@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Bitrupt Trainee</title>
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="logo">
+        <a href="home.html">
+          <img class="clogo" src="/images/logo.png" alt="Company Logo" />
+        </a>
+      </div>
+      <h1>My First Website By Bitrupt</h1>
+    </div>
+
+    <div>
+      <div class="sidenav">
+        <a href="home.html">Home</a>
+        <a href="profile.html">Profile</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact Us</a>
+        <a style="padding-top: 200px" href="index.html">Log Out</a>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="left">
+        <div class="contact">
+          <form name="myForm" action="#" onsubmit="return validateForm()" method="post">
+            <label for="fname">Full Name:</label>
+            <input type="text" id="fname" name="fname" placeholder="Your Full Name"/><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Email Address" /><br/><br/>
+            <label for="country">Country:</label>
+            <select id="country" name="country">
+              <option value="australia">Australia</option>
+              <option value="canada">Canada</option>
+              <option value="usa">USA</option>
+              <option value="pak">Pakistan</option></select><br><br>
+            <label for="subject">Subject:</label>
+            <input type="text" placeholder="" id="subject" name="subject" /><br><br>
+            <label for="message">Your Message:</label>
+            <input type="text" id="message" name="subject" placeholder="Write something here...">
+
+            <input type="submit" value="Submit" />
+          </form>
+        </div>
+      </div>
+
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.2880429919296!2d67.0242148153587!3d24.85400995163611!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33f5a70a8370f%3A0x71747af0780cf74f!2sBitrupt!5e0!3m2!1sen!2s!4v1674020278803!5m2!1sen!2s"
+        width="700"
+        height="660"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
